@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center fixed;
+  background: no-repeat center center fixed;
   background-size: cover;
   font-family: 'Arial', sans-serif;
 }

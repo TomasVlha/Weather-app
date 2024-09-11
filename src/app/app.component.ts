@@ -50,7 +50,7 @@ export class AppComponent {
         this.openWeatherModal(data);
         this.backgroundImage = weatherImages[data.weatherCondition] || 'assets/default.jpg';
       },
-      error: (error) => {
+      error: () => {
         this.snackBar.open('City not found, please try another one.', 'Close', {
           duration: 10000,
           horizontalPosition: 'right',
